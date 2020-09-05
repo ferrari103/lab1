@@ -1,0 +1,19 @@
+div {
+    border-radius: 6px;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    margin: 0 1.5% 24px 1.5%;
+  }
+.sleva {
+    float: left;
+    width: 60%;
+  }
+.sprava {
+    float: right;
+    width: 33%;
+  }
+#markError,
+#commentError,
+#mailError {
+    color: red
+}

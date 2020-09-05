@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>lab1</title>
+        <link rel="stylesheet" href="./mask.css">
+        
+
+    </head>
+    <body>
+        <header></header>
+            <div class = "sleva">Отзывы: 
+                <ol id = "myDIV"></ol>
+            </div>
+            
+
+            <div class = "sprava">Форма заполнения: <br>
+                <form onsubmit="return false">
+                    <p><b>Укажите Вашу почту:</b><br>
+                    <input type="text" size="40" id = "mail"><br>
+                    <span id="mailError"></span>
+                    </p>
+                    <p><b>Какую оценку Вы дадите данному продукту?</b><Br>
+                    <input type="radio" name="mark" value="1"> 1<Br>
+                    <input type="radio" name="mark" value="2"> 2<Br>
+                    <input type="radio" name="mark" value="3"> 3<Br>
+                    <input type="radio" name="mark" value="4"> 4<Br>
+                    <input type="radio" name="mark" value="5"> 5<Br>
+                    <span id="markError"></span>
+                    </p>
+                    <p> Оставьте ваш комментарий<Br>
+                    <textarea id = "comment" cols="40" rows="3" ></textarea><br>
+                    <span id="commentError"></span>
+                    </p>
+                    <p>
+                        <button onclick="main()">Send</button>
+                    </p>
+                </form>
+            </div>
+        
+        <script type = "text/javascript" src = "./function.js"></script>
+        <script type = "text/javascript" src = "./index.js"></script>
+
+    </body>
+</html>
